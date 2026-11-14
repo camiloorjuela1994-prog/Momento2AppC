@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculadora BrayanL"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp" />
+
+    <EditText
+        android:id="@+id/etNumero1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="Escribe el primer número"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/etNumero2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="Escribe el segundo número"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnSumar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUMAR (+)"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnRestar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RESTAR (-)"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnMultiplicar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MULTIPLICAR (*)"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnDividir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DIVIDIR (/)"
+        android:layout_marginBottom="30dp" />
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado: 0"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
